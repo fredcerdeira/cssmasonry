@@ -1,6 +1,4 @@
-
-
-
+//@fredcerdeira 2014
 
 
 //CONFIG
@@ -65,10 +63,20 @@ body {
 
 .main-title {
     color: #1a1a1a;
-    text-shadow: 0px 1px 1px #7a7a7a;
+    text-shadow: 0px 1px 1px #6a6a6a;
     font-size: 3em;
     letter-spacing: .2em;
     margin: .5em 0;
+    text-transform: uppercase;
+    
+    span {
+        font-size: .3em;
+        display: inline-block;
+        clear: both;
+        text-transform: lowercase;
+        letter-spacing: .08em;
+    }
+
     @include mq($s) {
         font-size: 4.5em;
     }
